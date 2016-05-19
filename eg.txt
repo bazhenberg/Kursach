@@ -1,0 +1,138 @@
+#include<stdio.h
+	int i, j;
+	
+	for(i = 0; i < 3; i++)
+		for(j = 0; j < 3; j++)
+			a[i][j] = b;	     	
+}
+#include<math.h>                      }
+#include<conio.h>
+#include<stdlib.h>
+
+void Constructor(char a[3][3], char b){} //I?enaaeaaai ia?aeuiua cia?ai
+	int i, j;
+	
+	for(i = 0; i < 3; i++)
+		for(j = 0; j < 3; j++)
+			a[i][j] = b;	     	
+}
+	int i, j;
+	
+	for(i = 0; i < 3; i++)
+		for(j = 0; j < 3; j++)
+			a[i][j] = b;	     	
+}
+
+void CheckYou(char a[3][3], char sim){}//Noaaei o n i?iaa?e
+			int x, y;
+
+			scanf("%i", &x); //N?eouaaoaeu eii?aeiao
+			scanf("%i", &y); 
+			if(a[x][y] == 'X' || a[x][y] == 'O' || x >= 3 || y >= 3 || x < 0 || y < 0){
+    			printf("\n Error!");
+
+void Interface(char a[3][3]){} //I?i?eniaea eioa?oaen
+/*NEI?IA? OAEOEEA EA?U*/
+
+void BlueLimb(char a[3][3]){}
+
+void PinkLimb(char a[3][3]){}
+
+void OrangeLimb(char a[3][3]){}
+
+void GreenLimb(char a[3][3]){}}
+
+void DarkBlueLimb(char a[3][3}]){}
+ 	
+void TackTick1(char a[3][3]){} //E?aniay aaoe
+
+	Interface(a);
+	a[0][0] = 'X';
+	system("cls"); 
+	Interface(a);
+	
+	CheckYou(a, 'O');
+	system("cls"); 
+	Interface(a);
+	
+	if(a[1][1] == 'O'){ 
+		a[2][2] = 'X';
+		system("cls"); 
+		Interface(a);
+		
+		CheckYou(a, 'O');
+		BlueLimb(a);
+		DarkBlueLimb(a);
+	}
+		
+}
+
+
+void HardGame(char a[3][3]){
+	TackTick1(a);
+}
+ 	
+
+void OrangeLimb(char a[3][3]){}
+
+void GreenLimb(char a[3][3]){}}
+
+void DarkBlueLimb(char a[3][3}]){}
+ 	
+
+void TackTick1(char a[3][3]){} //E?aniay aaoe
+
+	Interface(a);
+	a[0][0] = 'X';
+	system("cls"); 
+	Interface(a);
+	
+	CheckYou(a, 'O');
+	system("cls"); 
+	Interface(a);
+	
+	if(a[1][1] == 'O'){ 
+		a[2][2] = 'X';
+		system("cls"); 
+		Interface(a);
+		
+		CheckYou(a, 'O');
+		BlueLimb(a);
+		DarkBlueLimb(a);
+	}
+		
+}
+
+
+void HardGame(char a[3][3]){
+	TackTick1(a);
+}
+ 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
