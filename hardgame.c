@@ -118,18 +118,18 @@ void HardCheckComp(char a[3][3], int i, int j){//Ставит компьютер
 }
 //CАМИ ТАКТИКИ
 
-void GreenLimb(char a[3][3]){
+void GreenLimb1(char a[3][3]){
 	if(a[0][2] == 'O'){
 		ResultGame(a);		
 	}
 }
 
-void BlackBlueLimb(char a[3][3]){
+void BlackBlueLimb1(char a[3][3]){
 	if(a[1][0] == 'O'){
 		HardCheckComp(a, 1, 2);	
 		HardCheckYou(a, 'O');
 		
-		GreenLimb(a);
+		GreenLimb1(a);
 		
 		if(a[2][0] == 'O'){
 			HardCheckComp(a, 0, 2);
@@ -138,7 +138,7 @@ void BlackBlueLimb(char a[3][3]){
 	}	
 }
 
-void BlueLimb(char a[3][3]){ //Голубая ветка
+void BlueLimb1(char a[3][3]){ //Голубая ветка
 
 
 	HardCheckYou(a, 'O');	
@@ -156,15 +156,15 @@ void BlueLimb(char a[3][3]){ //Голубая ветка
 		
 }
 
-void RedLimb(char a[3][3]){
+void RedLimb1(char a[3][3]){
 	Interface(a);
 	HardCheckComp(a, 0, 0);	
 	HardCheckYou(a, 'O');
 	
 	if(a[1][1] == 'O'){
 		HardCheckComp(a, 2, 2);	
-		BlueLimb(a);		
-		BlackBlueLimb(a);	
+		BlueLimb1(a);		
+		BlackBlueLimb1(a);	
 	}
 }
 
@@ -172,6 +172,6 @@ void RedLimb(char a[3][3]){
 
 
 void HardGame(char a[3][3]){
-	RedLimb(a);
+	RedLimb1(a);
 }
  	
